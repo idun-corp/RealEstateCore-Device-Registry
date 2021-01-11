@@ -1,0 +1,61 @@
+{
+  "manufacturer": "Elsys",
+  "model": "ERS",
+  "deviceTypeString": "Elsys-ERS-1",
+  "link": "https://www.elsys.se/en/ers",
+  "modelling": {
+    "device": {
+      "sensors": [
+        {
+          "quantityKind": "https://w3id.org/rec/core/Temperature",
+          "measurementUnit": "https://w3id.org/rec/core/Celsius",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        },
+        {
+          "quantityKind": "https://w3id.org/rec/core/Illuminance",
+          "measurementUnit": "https://w3id.org/rec/core/Lux",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        },
+        {
+          "quantityKind": "https://w3id.org/rec/core/Presence",
+          "measurementUnit": "https://w3id.org/rec/core/BooleanDetection",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        },
+        {
+          "quantityKind": "https://w3id.org/rec/core/CO2",
+          "measurementUnit": "https://w3id.org/rec/core/PartsPerMillion",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        },
+        {
+          "quantityKind": "https://w3id.org/rec/core/Humidity",
+          "measurementUnit": "https://w3id.org/rec/core/Percentage",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        }
+      ],
+      "actuators": []
+    },
+    "messages": [
+      {
+        "created": "observationTime",
+        "payloadData": {
+          "light": "https://w3id.org/rec/core/Illuminance",
+          "temperature": "https://w3id.org/rec/core/Temperature",
+          "motion": "https://w3id.org/rec/core/Presence",
+          "co2": "https://w3id.org/rec/core/CO2",
+          "humidity": "https://w3id.org/rec/core/Humidity"
+        }
+      }
+    ]
+  }
+}
+

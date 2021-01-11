@@ -1,0 +1,29 @@
+{
+  "manufacturer": "Capgemini",
+  "model": "DeskSense",
+  "deviceTypeString": "CG-DeskSense-1",
+  "link": "?",
+  "modelling": {
+    "device": {
+      "sensors": [
+        {
+          "quantityKind": "https://w3id.org/rec/core/Presence",
+          "measurementUnit": "https://w3id.org/rec/core/BooleanDetection",
+          "placementContext": null,
+          "scaleFactor": "1",
+          "offSet": "0"
+        }
+      ],
+      "actuators": []
+    },
+    "messages": [
+      {
+        "created": "observationTime",
+        "payloadData": {
+          "occupied": "https://w3id.org/rec/core/Presence"
+        }
+      }
+    ]
+  }
+}
+
